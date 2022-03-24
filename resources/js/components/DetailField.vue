@@ -1,11 +1,12 @@
 <template>
     <panel-item :field="field">
         <div slot="value" class="flex" @mouseover="hover = true" @mouseleave="hover = false">
-            <div class="flex-no-shrink">{{ fieldDisplayValue }}</div>
-            <copy-button
+            <div class="flex-no-shrink" v-if="fieldDisplayValue">{{ fieldDisplayValue }}</div>
+            <copy-button v-if="fieldDisplayValue"
                 :value="copyFieldValue"
                 :title="copyButtonTitleValue"
                 :class="['w-4 mx-3', {'invisible': ! shouldShowButton}]" />
+            <p v-else>&mdash;</p>
         </div>
     </panel-item>
 </template>
