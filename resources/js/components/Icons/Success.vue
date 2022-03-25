@@ -1,3 +1,3 @@
 <template functional>
-    <svg viewBox="0 0 20 20" class="text-success pointer-events-none" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="currentcolor" fill-rule="evenodd"><g id="icon-shape"><polygon id="Path-126" points="0 11 2 9 7 14 18 3 20 5 7 18"></polygon></g></g></svg>
+    <svg class="text-success" fill="none" stroke="currentColor" viewBox="4 2 20 20" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
 </template>
