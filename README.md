@@ -1,19 +1,26 @@
 # Nova Text Copy Field
 
-[![Packagist Version](https://img.shields.io/packagist/v/sixlive/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/sixlive/nova-text-copy-field)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/sixlive/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/sixlive/nova-text-copy-field)
-[![StyleCI](https://github.styleci.io/repos/152124692/shield)](https://github.styleci.io/repos/152124692)
+[![Packagist Version](https://img.shields.io/packagist/v/lednerb/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/lednerb/nova-text-copy-field)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/lednerb/nova-text-copy-field.svg?style=flat-square)](https://packagist.org/packages/lednerb/nova-text-copy-field)
+
+This repo is a fork from the original [`sixlive/nova-text-copy-field`](https://github.com/sixlive/nova-text-copy-field) one that implements some additional features and fixes and is fully compatible to the original code:
+
+- Support for `readonly` fields
+- Don't show the copy button on empty or null values
+- Changed icons to heroicons to match Nova styling
+
+---
 
 A Laravel Nova text field with click to copy support. This field behaves just like a text field but adds the ability to copy the field value to your clipboard with just a click.
 
-This package can also be found on [Nova Packages](https://novapackages.com/packages/sixlive/nova-text-copy-field).
+This package can also be found on [Nova Packages](https://novapackages.com/packages/lednerb/nova-text-copy-field).
 
 ![animated screenshot](.docs/animated.gif)
 
 ## Installation
 
 ```bash
-> composer require sixlive/nova-text-copy-field
+> composer require lednerb/nova-text-copy-field
 ```
 
 ## Usage
@@ -113,6 +120,7 @@ If you discover any security related issues, please email oss@tjmiller.co instea
 
 ## Credits
 - [TJ Miller](https://github.com/sixlive)
+- [Sascha Brendel](https://github.com/Lednerb)
 - [All Contributors](../../contributors)
 
 ## License

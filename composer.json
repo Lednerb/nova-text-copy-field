@@ -1,7 +1,7 @@
 {
-    "name": "sixlive/nova-text-copy-field",
+    "name": "lednerb/nova-text-copy-field",
     "description": "Laravel Nova text field with click to copy support",
-    "homepage": "https://github.com/sixlive/nova-text-copy-field",
+    "homepage": "https://github.com/lednerb/nova-text-copy-field",
     "keywords": [
         "laravel",
         "nova"
@@ -12,6 +12,12 @@
             "email": "oss@tjmiller.co",
             "homepage": "https://www.tjmiller.me",
             "role": "Developer"
+        },
+        {
+            "name": "Sascha Brendel",
+            "email": "mail@lednerb.eu",
+            "homepage": "https://sascha-brendel.de",
+            "role": "Contributor"
         }
     ],
     "license": "MIT",
